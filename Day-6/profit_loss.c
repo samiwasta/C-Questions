@@ -20,8 +20,8 @@ int main(){
 
     printf("Profit: %d\n", profit);
     printf("Loss: %d\n", loss);
-    printf("Profit Percentage: %d\n", profitPercentage);
-    printf("Loss Percentage: %d", lossPercentage);
+    printf("Profit Percentage: %d%%\n", profitPercentage);
+    printf("Loss Percentage: %d%%", lossPercentage);
 
     return 0;
 }
