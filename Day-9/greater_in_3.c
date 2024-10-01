@@ -8,21 +8,23 @@ int main(){
         printf("All the numbers are equal");
     }
     else if((a==b) > c){
-        printf("a & b are greater");
+        printf("%d", a);
     }
     else if((b==c) > a){
-        printf("b & c are greater");
+        printf("%d", b);
     }
     else if((a==c) > b){
-        printf("a & c are greater");
+        printf("%d", c);
     }
     else if(a > b && a > c){
-        printf("a is greater");
+        printf("%d", a);
     }
     else if(b > c){
-        printf("b is greater");
+        printf("%d", b);
     }
     else {
-        printf("c is greater");
+        printf("%c", c);
     }
+
+    return 0;
 }
