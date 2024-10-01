@@ -5,8 +5,8 @@ int main(){
     printf("Enter the hour (24-hour format): ");
     scanf("%d", &hour);
 
-    if(hour < 0){
-        printf("Hours cannot be negative");
+    if(hour < 0 || hour > 24){
+        printf("Invalid format");
     }
     else if(hour >= 6 && hour <= 12){
         printf("It's Morning");
