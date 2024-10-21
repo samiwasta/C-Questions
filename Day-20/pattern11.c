@@ -18,13 +18,13 @@ int main(){
         
         if(row % 2 != 0){
             for(int col = 1; col <= num; col++){
-                printf("%d ", digit++);
+                printf("%3d ", digit++);
             }
         }
         else {
             int temp = digit + num - 1;  
             for(int col = 1; col <= num; col++){
-                printf("%d ", temp--);    
+                printf("%3d ", temp--);    
             }
             digit += num;  
         }
