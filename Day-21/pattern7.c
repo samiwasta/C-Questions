@@ -14,11 +14,13 @@ int main(){
     scanf("%d", &num);
 
     for(int row = 1; row <= num; row++){
-        oddDigit = 2 * row -1;
+        
         for(int col = 1; col <= row; col++){
             printf("%d ", oddDigit);
             oddDigit += 2;
         }
+        
+        oddDigit = 2 * row - 1;
 
         printf("\n");
     }
