@@ -11,13 +11,30 @@
 #include<stdio.h>
 int main(){
     int num1, num2;
+    
     scanf("%d %d", &num1, &num2);
-
+    
     for(int row = 1; row <= num1; row++){
+        int digit = row;
         for(int col = 1; col <= num2; col++){
-            printf("%3d ", row + (col - 1) * num1);
+            printf("%d ", digit);
+            digit += 5;
         }
         printf("\n");
     }
     return 0;
 }
+
+// #include<stdio.h>
+// int main(){
+//     int num1, num2;
+//     scanf("%d %d", &num1, &num2);
+
+//     for(int row = 1; row <= num1; row++){
+//         for(int col = 1; col <= num2; col++){
+//             printf("%3d ", row + (col - 1) * num1);
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
